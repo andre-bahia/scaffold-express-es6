@@ -4,7 +4,10 @@
   "description": "Simple scaffold api with express to node js",
   "main": "dist",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -w src --exec \"babel-node src/app.js --presets es2015,stage-0\"",
+    "build": "babel src -s -D -d dist --presets es2015,stage-0",
+    "start": "node dist/app.js",
+    "prestart": "npm run -s build"
   },
   "repository": {
     "type": "git",
