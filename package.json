@@ -1,0 +1,34 @@
+{
+  "name": "scaffold-express-es6",
+  "version": "1.0.0",
+  "description": "Simple scaffold api with express to node js",
+  "main": "dist",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andre-bahia/scaffold-express-es6.git"
+  },
+  "keywords": [
+    "node.js",
+    "javascript"
+  ],
+  "author": "André Luis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andre-bahia/scaffold-express-es6/issues"
+  },
+  "homepage": "https://github.com/andre-bahia/scaffold-express-es6#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.17.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  }
+}
